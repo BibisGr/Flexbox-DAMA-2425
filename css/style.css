@@ -1,4 +1,108 @@
-body{
-    background-color: darkblue;
-    color: aliceblue;
+body {
+  background-color: #2e2e2e;
+  color: #fff;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f00;
+}
+header {
+  /* border:#f00 1px solid; */
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+    /* border:#f00 1px solid; */
+    display: flex;
+    align-items: center;
+}
+nav .menu{
+    width: 70px;
+}
+nav .logo{
+    width: 100px;
+}
+.busquedaForm {
+    display: flex;
+    align-items: center;
+}
+.busquedaForm input, button{
+    font-size: 16px;
+    padding: 10px;
+    border: #2e2e2e 1px solid;
+}
+.busquedaForm input{
+    width: 500px;
+}
+.busquedaForm button{
+    background-color: black;
+    color: #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+main {
+    border:#f00 1px solid;
+    display: flex;
+    justify-content: space-around;
+}
+section {
+    /* border:#f00 1px solid; */
+}
+aside {
+    border:#f00 1px solid;
+    width: 20%;
+}
+.videoArea{
+    width: 75%;
+}
+footer {
+    border:#f00 1px solid;
+}
+/* 
+.boxPrincipal {
+  border: #fff 1px solid;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ flex-direction: row-reverse; 
+  flex-wrap: wrap-reverse;
+}
+.boxInteriorR {
+  border: #fff 1px solid;
+  margin: 10px;
+  padding: 10px;
+  background-color: red;
+  width: 200px;
+  height: 300px;
+}
+.boxInteriorG {
+  border: #fff 1px solid;
+  margin: 10px;
+  padding: 10px;
+  background-color: green;
+  width: 200px;
+
+}
+.boxInteriorB {
+  border: #fff 1px solid;
+  margin: 10px;
+  padding: 10px;
+  background-color: blue;
+  width: 200px;
+
+}
+.boxInteriorY {
+  border: #fff 1px solid;
+  margin: 10px;
+  padding: 10px;
+  background-color: yellow;
+  width: 200px;
+
+} */
