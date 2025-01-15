@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    line-height: 1.5;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 1200px){
+
+    h1{
+        font-size: 3rem;
+        color: blueviolet;
+    }
+}
+@media (max-width: 900px){
+    h1{
+        font-size: 2.5rem;
+        color: aqua;
+    }
+}
+@media (max-width: 600px){
+    h1{
+        font-size: 2rem;
+        color: red;
+    }
+}
