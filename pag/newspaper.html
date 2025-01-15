@@ -19,17 +19,33 @@
         <strong>Página 1</strong>
     </div>
     <div class="main-nav">
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">Nacionales</a></li>
-            <li><a href="#">El Mundo</a></li>
-            <li><a href="#">Deportes</a></li>
-            <li><a href="#">Economía</a></li>
-            <li><a href="#">Cultura</a></li>
-            <li><a href="#">Tecnología</a></li>
-            <li><a href="#">Opinión</a></li>
-            <li><a href="#">Más</a></li>
-        </ul>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">Nacionales</a>
+            <a href="#">El Mundo</a>
+            <a href="#">Deportes</a>
+            <a href="#">Economía</a>
+            <a href="#">Cultura</a>
+            <a href="#">Tecnología</a>
+            <a href="#">Opinión</a>
+            <a href="#">Más</a>
+        </nav>
+        <section class="toggle-menu" id="togglemenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </section>
+        <nav class="mobile-menu" id="mobilemenu">
+            <a href="#">HOME</a>
+            <a href="#">Nacionales</a>
+            <a href="#">El Mundo</a>
+            <a href="#">Deportes</a>
+            <a href="#">Economía</a>
+            <a href="#">Cultura</a>
+            <a href="#">Tecnología</a>
+            <a href="#">Opinión</a>
+            <a href="#">Más</a>
+        </nav>
     </div>
     <div class="firstNew">
         <div class="col">
@@ -72,6 +88,15 @@
             </p>
         </div>
     </div>
+
+    <script>
+        const toggleMenu = document.getElementById('togglemenu');
+        const mobileMenu = document.getElementById('mobilemenu');
+
+        toggleMenu.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+        });
+    </script>
 </body>
 
 </html>
